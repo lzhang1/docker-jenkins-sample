@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:jessie
 MAINTAINER zhlei315 zhlei315@163.com
 ENV REFRESHED_AT 2014-07-22
 RUN apt-get update
